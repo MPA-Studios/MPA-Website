@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkey Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-  
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">MPA</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"> Home </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/monk.html" class="navbar__links"> Tech </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"> Products </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button"> sign up </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <script src="app.js"></script>
 </body>
-
 </html>

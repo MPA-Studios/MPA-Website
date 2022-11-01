@@ -1,18 +1,20 @@
 * {
-    background: #ffff
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
-    place-items: content
+    place-items: content;
 }
 
 .navbar {
-    background: #131313;
+    background: black;
     height: 80px;
+    background-color: black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 70px 0;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
@@ -28,6 +30,7 @@
     max-width: 100px;
     margin: 0 auto;
     padding: 0 5px;
+    position: center;
 }
 #navbar__logo {
     background-color: #ff8177;
@@ -38,7 +41,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     display: flex;
-    align-items: center;
+    align-items: left;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -61,13 +64,15 @@
 }
 
 .navbar__links {
-    color: #000000ff;
+    color: #white;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    text-align: center;
 }
 
 .navbar__btn {
@@ -404,4 +409,16 @@ body {
   color: white;
   font-family: "Anek Latin", sans-serif;
   transition: color 600ms;
+}
+
+.Klajdi {
+  background: -webkit-linear-gradient(#1919a7, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.magnify {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

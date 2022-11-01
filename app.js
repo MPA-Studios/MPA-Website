@@ -22,7 +22,10 @@ const createWord = (text, index) => {
 }
 
 const addWord = (text, index) => subtitle.appendChild(createWord(text, index));
-
+how have you even managed to di tgat
 const createSubtitle = text => text.split(" ").map(addWord);
 
-createSubtitle("But in a much more real sense, I have no idea what I'm doing.");
+createSubtitle("i cant get no sleep...");
+
+im gonna revert now 
+to yesturday right?
